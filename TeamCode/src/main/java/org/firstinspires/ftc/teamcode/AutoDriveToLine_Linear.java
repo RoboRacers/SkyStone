@@ -27,12 +27,14 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.firstinspires.ftc.robotcontroller.external.samples;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.LightSensor;
+
+import org.firstinspires.ftc.robotcontroller.external.samples.HardwarePushbot;
 
 /**
  * This file illustrates the concept of driving up to a line and then stopping.
@@ -56,7 +58,7 @@ import com.qualcomm.robotcore.hardware.LightSensor;
 
 @Autonomous(name="Pushbot: Auto Drive To Line", group="Pushbot")
 @Disabled
-public class PushbotAutoDriveToLine_Linear extends LinearOpMode {
+public class AutoDriveToLine_Linear extends LinearOpMode {
 
     /* Declare OpMode members. */
     HardwarePushbot         robot   = new HardwarePushbot();   // Use a Pushbot's hardware
